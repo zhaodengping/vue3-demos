@@ -1,18 +1,14 @@
 <template>
-<img alt="Vue logo" src="./assets/logo.png" />
-<HelloWorld msg="Hello Vue 3.0 + Vite" />
+<div>
+    <mixins />
+</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import mixins from './components/Mixins.vue'
 export default {
-    provide: {
-        text: "vue2222"
-    },
-    name: 'App',
     components: {
-        HelloWorld
+        mixins
     }
 }
 </script>
