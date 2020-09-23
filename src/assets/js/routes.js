@@ -1,6 +1,7 @@
 
 import Home from '../../views/home/home.vue'
 import Mixins from '../../views/Mixins/Mixins.vue'
+import Router from '../../views/router/router.vue'
 
 import {createWebHashHistory,createRouter} from 'vue-router'
 
@@ -17,6 +18,9 @@ export const routes=createRouter({
         children:[{
             path:'/home/mixins',
             component:Mixins
+        },{
+            path:"/home/router",
+            component:Router
         }]
     }]
 })

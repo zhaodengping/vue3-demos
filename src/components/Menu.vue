@@ -2,6 +2,9 @@
 <div class="menu">
     <ul>
         <li>
+            <router-link to='/home/router'>路由router</router-link>
+        </li>
+        <li>
             <router-link to='/home/mixins'>mixins</router-link>
         </li>
     </ul>
@@ -16,14 +19,24 @@
     text-align: right;
     border-right: 1px solid #f2f2f2;
     min-height: calc(100vh - 50px);
-}
 
-li {
-    list-style: none;
-}
+    ul {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0;
+        margin: 20px 0;
 
-a {
-    text-decoration: none;
-    color: #1989fa;
+        li {
+            list-style: none;
+            width: 100%;
+
+            a {
+                text-decoration: none;
+                color: #1989fa;
+            }
+        }
+    }
 }
 </style>
