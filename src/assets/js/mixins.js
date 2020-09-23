@@ -1,4 +1,4 @@
-export const mixin={
+export const mixins={
     created(){
         console.log('mixins created')
     },

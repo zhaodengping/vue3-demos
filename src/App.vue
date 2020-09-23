@@ -1,14 +1,5 @@
 <template>
 <div>
-    <mixins />
+    <router-view />
 </div>
 </template>
-
-<script>
-import mixins from './components/Mixins.vue'
-export default {
-    components: {
-        mixins
-    }
-}
-</script>
