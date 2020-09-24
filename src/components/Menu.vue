@@ -7,6 +7,15 @@
         <li>
             <router-link to='/home/mixins'>mixins</router-link>
         </li>
+        <li>
+            <router-link to='/home/emit'>emit</router-link>
+        </li>
+        <li>
+            <router-link to='/home/modal'>v-model</router-link>
+        </li>
+        <li>
+            <router-link to='/home/emitEvent'>emit event</router-link>
+        </li>
     </ul>
 </div>
 </template>
