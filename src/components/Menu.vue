@@ -16,6 +16,9 @@
         <li>
             <router-link to='/home/emitEvent'>emit event</router-link>
         </li>
+        <li>
+            <router-link to='/home/watch'>watch</router-link>
+        </li>
     </ul>
 </div>
 </template>

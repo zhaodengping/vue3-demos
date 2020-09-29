@@ -5,6 +5,7 @@ import Router from '../../views/router/router.vue'
 import Emit from '../../views/emit/emit.vue'
 import Model from '../../views/vModel/vModel.vue'
 import EmitEvent from '../../views/emit/emitEvent.vue'
+import Watch from'../../views/watch/watch.vue'
 
 import {createWebHashHistory,createRouter} from 'vue-router'
 
@@ -33,6 +34,9 @@ export const routes=createRouter({
         },{
             path:'/home/emitEvent',
             component:EmitEvent
+        },{
+            path:'/home/watch',
+            component:Watch
         }]
     }]
 })
